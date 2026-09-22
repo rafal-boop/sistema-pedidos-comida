@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sumaq Sabor | Pedidos de comida local</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-mark">SS</div>
+    <div>
+      <p class="eyebrow">Pedidos desde Cusco</p>
+      <h1>Sumaq Sabor</h1>
+    </div>
+    <span class="status"><span></span> Cocina abierta</span>
+  </header>
+
+  <main class="layout">
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="eyebrow">Comida local, hecha al momento</p>
+      <h2 id="intro-title">Elige tu próximo sabor cusqueño.</h2>
+      <p>Arma tu pedido con platos preparados por cocineros locales y recíbelo sin complicaciones.</p>
+    </section>
+
+    <section class="menu-section" aria-labelledby="menu-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Carta del día</p>
+          <h2 id="menu-title">Platos disponibles</h2>
+        </div>
+        <span id="dish-count" class="count-label">0 platos</span>
+      </div>
+      <div id="menu" class="menu-grid"></div>
+    </section>
+
+    <aside class="order-panel" aria-labelledby="order-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Tu selección</p>
+          <h2 id="order-title">Pedido actual</h2>
+        </div>
+        <span id="order-count" class="count-label">0</span>
+      </div>
+      <div id="order-items" class="order-items">
+        <p class="empty-order">Tu pedido está vacío. Agrega un plato para comenzar.</p>
+      </div>
+      <div class="order-total">
+        <span>Total</span>
+        <strong id="order-total">S/ 0.00</strong>
+      </div>
+      <button id="submit-order" class="primary-button" type="button" disabled>Confirmar pedido</button>
+      <p id="order-message" class="order-message" role="status"></p>
+    </aside>
+  </main>
+
+  <footer>Proyecto académico · Laboratorio 1 · Git y entorno de desarrollo</footer>
+  <script src="app.js"></script>
+</body>
+</html>
