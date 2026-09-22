@@ -1,6 +1,6 @@
 # Sistema de Pedidos de Comida
 
-Proyecto inicial del Laboratorio 1: Introducción al entorno de desarrollo y Git.
+Proyecto inicial de la Guia 1: Introducción al entorno de desarrollo y Git.
 
 ## Descripción
 
