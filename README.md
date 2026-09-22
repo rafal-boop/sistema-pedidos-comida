@@ -77,25 +77,6 @@ git push origin main
 - Primer commit: `Primer commit`
 - El historial completo se puede consultar con `git log --oneline`.
 
-## Resultados de aprendizaje
-
-- Se comprende el control de versiones y el seguimiento de cambios.
-- Se configura un entorno con VS Code, Git y GitHub.
-- Se administra un repositorio local conectado a un repositorio remoto.
-- Se documenta un proyecto reproducible desde su clonación hasta su ejecución.
-
-## Reflexión
-
-Git es crítico en proyectos colaborativos porque permite que cada integrante
-trabaje sobre una historia común, revise cambios y recupere versiones estables.
-También facilita identificar quién modificó un archivo y por qué se hizo cada
-cambio.
-
-Entre los problemas que evita están la pérdida accidental de código, el
-intercambio de archivos duplicados, la dificultad para comparar versiones y la
-imposibilidad de volver a un estado anterior cuando una modificación introduce
-un error.
-
 ## Próximos pasos
 
 - Persistir los pedidos en una base de datos.
